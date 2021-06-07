@@ -1,0 +1,9 @@
+.about-me {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    padding-right: 20px;
+    border-right: black solid 2px ;
+}
