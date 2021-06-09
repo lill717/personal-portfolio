@@ -35,6 +35,38 @@ ul {
     margin-right: -75px;
     position: relative;
 }
+.flex-container {
+    display: flex;
+}
+.flex-container > img {
+    margin: 10px;
+    padding: 5px;
+}
+.myPicture {
+    height: auto;
+    width: 35%;
+    border-color: black;
+    border-width: medium;
+    border-style: groove;
+    item-position: right;
+    position: relative;
+}
+.dogs {
+    height: auto;
+    width: 300px;
+    border-color: black;
+    border-width: medium;
+    border-style: groove;
+    position: relative;
+}
+.kiara {
+    height: auto;
+    width: 300px;
+    border-color: black;
+    border-width: medium;
+    border-style: groove;
+    position: relative; 
+}
 div.viewport {
     background-image: url("../lily-of-the-valley.png"); 
     background-repeat: no-repeat;
@@ -44,6 +76,7 @@ div.viewport {
     min-height: 100vh;
     width: 100%;
     height: 100%;
+    margin: au10pxt10pxo;
 }
 section {
     display: flex;
@@ -51,11 +84,12 @@ section {
     position: relative;
 } 
 div.transbox {
-    margin: 30px;
+    margin: 40px;
+    margin-bottom: 40px;
     background-color: white;
     border: 1px solid black;
     opacity: 0.6;
-    width: 65%;
+    width: 90%;
 }
 div.body  {
     margin: 15%;
@@ -69,23 +103,23 @@ div.body  {
     border: 1px solid black;
     border-color: black;
     border-radius: 15px;
-    margin: 10px;
+    margin: 20px;
     position: relative;
     text-align: center;
 } 
-h3 {
+.card-header {
     font-size: 2em;
     /*margin-block-start: 0.50em;
     margin-block-end: 0.83em;
-    margin-inline-start: 600px; */
-    margin-inline-end: 400px;
+    margin-inline-start: 600px; 
+    margin-inline-end: 400px; */
     font-weight: bold;
     border: 1px solid black;
     border-color: black;
     border-radius: 15px;
+    align-items: center;
     text-align: center;
     position: relative;
-    align-items: center;
 }
 .container2 {
     align-items: center;
@@ -114,38 +148,14 @@ h3 {
     position: relative;
     text-align: center;
 } 
-.aside {
+/*.aside {
     border-color: black;
     border-width: medium;
     border-style: groove;
     position: relative;
     object-position: right;
     width: 300px;
-    height: auto;
-}
-#my-picture {
-    height: auto;
-    width: 300px;
-    border-color: black;
-    border-width: medium;
-    border-style: groove;
-    position: relative;
-}
-#dogs {
-    height: auto;
-    width: 300px;
-    border-color: black;
-    border-width: medium;
-    border-style: groove;
-    position: relative;
-}
-#kiara {
-    height: auto;
-    width: 300px;
-    border-color: black;
-    border-width: medium;
-    border-style: groove;
-    position: relative; 
+    height: auto; */
 }
 
 
