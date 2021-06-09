@@ -1,19 +1,9 @@
-img {
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    opacity: 50%;
-    width: 100%;
-    height: 100%;
-}
 .name {
     width: 800px;
     height: 500px;
     font-style: bold;
     font-size: 50px;
-    margin-left: 10%;
+    margin-left: 7%;
     text-align: left;
 }
 header {
@@ -25,11 +15,84 @@ header {
     line-height: 100px;
     background-color: rgb(172, 105, 211);
 }
- li {
+li {
     justify-content: space-evenly;
     display: inline;
     padding-right: 30px;
     margin-top: 20px;
     font-size: 20px;
-    text-align: right;
+    text-align: right; 
 }
+ul {
+    padding-inline-start: 0px;  
+    margin-block-start: -2em;
+    text-align: right;
+    margin-right: -75px;
+    position: relative;
+}
+div.viewport {
+    background-image: url("../lily-of-the-valley.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    opacity: 40%;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+} 
+.container1 {
+    align-items: center;
+    border: 1px dotted black;
+    border-color: teal;
+    margin: 10px;
+    text-align-last: auto;
+    color: black;
+} 
+.container2 {
+    align-items: center;
+    border: 1px dotted black;
+    border-color: teal;
+    margin: 10px;
+} 
+.container3 {
+    align-items: center;
+    border: 1px dotted black;
+    border-color: teal;
+    margin: 10px;
+} 
+.container4 {
+    align-items: center;
+    border: 1px dotted black;
+    border-color: teal;
+    margin: 10px;
+} 
+
+
+
+
+
+
+
+
+
+.card-header {
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-color: white;
+    position: relative;
+    top: -35px;
+    background-color: rgb(58, 57, 57);
+}
+.code-block {
+    background-color: violet;
+    border-radius: 5px;
+    color: white;
+    padding-left: 2px;
