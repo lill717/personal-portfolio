@@ -5,7 +5,9 @@ This is Lillian Chan's personal portfolio.
 
 It contains several links and pictures with information about me and my work experiences. 
 
-<img width="286" alt="personal portfolio" src="https://github.com/lill717/personal-portfolio.git" />
+![top](assets/images/top.png)
+![middle](assets/images/middle.png)
+![bottom](assets/images/bottom.png)
 
 # Prerequisites
 Before you begin, ensure you have met the following requirements:
