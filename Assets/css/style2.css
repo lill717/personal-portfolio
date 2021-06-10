@@ -107,7 +107,7 @@ div.transbox {
     position: relative;
     text-align: center;
 } 
-.card-header {
+h3 {
     font-size: large;
     /*margin-block-start: 0.50em;
     margin-block-end: 0.83em;
