@@ -5,9 +5,9 @@ This is Lillian Chan's personal portfolio.
 
 It contains several links and pictures with information about me and my work experiences. 
 
-![top](assets/images/top.png)
-![middle](assets/images/middle.png)
-![bottom](assets/images/bottom.png)
+![top](lib/images/top.png)
+![middle](lib/images/middle.png)
+![bottom](lib/images/bottom.png)
 
 # Prerequisites
 Before you begin, ensure you have met the following requirements:
